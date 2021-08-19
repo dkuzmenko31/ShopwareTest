@@ -1,0 +1,18 @@
+{
+  "name": "swag/theme-skeleton",
+  "description": "Theme skeleton plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagDeltaStore\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagDeltaStore\\SwagDeltaStore",
+    "label": {
+      "de-DE": "Theme SwagDeltaStore plugin",
+      "en-GB": "Theme SwagDeltaStore plugin"
+    }
+  }
+}
